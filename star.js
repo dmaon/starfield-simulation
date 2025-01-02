@@ -8,7 +8,7 @@ class Star {
 
 
     update() {
-        this.z = this.z - 5;
+        this.z = this.z - 10;
         if (this.z < 1) {
             this.x = random(-width, width);
             this.y = random(-height, height);
